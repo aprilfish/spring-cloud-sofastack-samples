@@ -2,7 +2,7 @@ spring:
   application:
     name: sys-auth
   profiles:
-    active: github
+    active: localhost
 server:
   port: 8033
 logging:

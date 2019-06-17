@@ -1,7 +1,7 @@
 spring:
   cloud:
     zookeeper:
-      connect-string: ${your-zookeeper-hostname}:2181
+      connect-string: 116.62.174.104:2181
       discovery:
         enabled: true
         instance-id: sys-auth
@@ -26,7 +26,7 @@ com:
     sofa:
       rpc:
         registry:
-          address: zookeeper://${your-zookeeper-hostname}:2181
+          address: zookeeper://116.62.174.104:2181
       tracer:
         zipkin:
           enabled: true

@@ -1,7 +1,7 @@
 spring:
   cloud:
     zookeeper:
-      connect-string: ${your-zookeeper-hostname}:2181
+      connect-string: 116.62.174.104:2181
       discovery:
         enabled: true
         instance-id: api-gateway

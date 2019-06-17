@@ -43,7 +43,7 @@ CREATE TABLE `sofastack_cloud_bill` (
   `pay_amount` decimal(10,0) DEFAULT '0' COMMENT '支出金额',
   `income_amount` decimal(10,0) DEFAULT '0' COMMENT '收入金额',
   `user_id` int(11) DEFAULT '0' COMMENT '用户ID',
-  `create_time` date DEFAULT CURRENT_TIMESTAMP COMMENT '账单时间',
+  `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '账单时间',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT '账单表';
 

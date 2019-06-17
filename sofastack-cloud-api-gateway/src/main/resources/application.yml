@@ -2,7 +2,7 @@ spring:
   application:
     name: api-gateway
   profiles:
-    active: github
+    active: localhost
 server:
   port: 8080
 logging:
